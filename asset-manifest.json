@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/PokeCards/static/js/main.eed905a2.js",
+    "index.html": "/PokeCards/index.html",
+    "main.eed905a2.js.map": "/PokeCards/static/js/main.eed905a2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.eed905a2.js"
+  ]
+}
