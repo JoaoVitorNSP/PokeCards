@@ -8,7 +8,6 @@ import PokemonList from './components/PokemonList';
 import HomeComponent from './components/HomeComponent';
 import AboutComponent from './components/AboutComponent';
 
-
 const globalStyles = `
 @keyframes fadeInScale {
   from {
@@ -117,6 +116,7 @@ function App() {
         setAppliedSearchTerm(searchTerm);
     }, [searchTerm]);
 
+    // Função para limpar todos os filtros aplicados
     const clearAllFilters = useCallback(() => {
         setFilterType('');
         setFilterGeneration('');

@@ -3,6 +3,7 @@ import { LanguageContext } from './../contexts/LanguageContext';
 import PokemonCard from './PokemonCard'; 
 import PokemonDetailsModal from './PokemonDetailsModal'; 
 import FilterControls from './FilterControls';
+import LoadingSpinner from './LoadingSpinner';
 
 /**
  * @param {Object} props 
